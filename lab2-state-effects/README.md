@@ -11,11 +11,4 @@
 | 4. Dynamic document title | `useEffect` in `src/App.jsx`, keyed on the visible student count |
 | 5. Sort controls | `src/components/SortControls.jsx`, applied in `src/App.jsx` before render |
 
-## A note on task 3
 
-The brief describes local `useState` inside the card *and* lifting state to
-`App`. Keeping the boolean in two places at once invites the two copies
-drifting out of sync, so this implementation uses a single source of truth:
-`App` holds the `Set` of favorite ids, and `StudentCard` is a controlled
-component driven by the `isFavorite` prop. That's the actual point of the
-"state lifting" topic this lab is teaching — one owner, shared down.
