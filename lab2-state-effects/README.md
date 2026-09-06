@@ -1,14 +1,5 @@
 # Lab 2 — State & Effects
 
-Extends Lab 1 with interactivity: a simulated fetch, live search, sorting,
-and a favorites count lifted up to the header.
-
-## Run it
-
-```bash
-npm install
-npm run dev
-```
 
 ## Where each task lives
 
