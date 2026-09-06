@@ -2,17 +2,6 @@
 
 Static Student Dashboard built from reusable components.
 
-## Run it
-
-```bash
-npm install
-npm run dev
-```
-
-Then open the printed local URL (usually http://localhost:5173).
-
-## Where each task lives
-
 | Task | File(s) |
 |---|---|
 | 1. StudentCard | `src/components/StudentCard.jsx` (5 students in `src/data/students.js`) |
