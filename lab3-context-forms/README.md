@@ -1,14 +1,6 @@
 # Lab 3 — Context & Forms
 
-Extends Lab 2 with global state via Context, a validated Add Student
-form, and localStorage persistence.
 
-## Run it
-
-```bash
-npm install
-npm run dev
-```
 
 ## Where each task lives
 
