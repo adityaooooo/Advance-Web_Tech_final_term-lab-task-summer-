@@ -12,4 +12,3 @@
 | 4. Submission + notification | `addStudent()` in `StudentContext.jsx`; the 3-second auto-dismiss timer lives in `src/App.jsx` (`Dashboard` component), rendered by `src/components/Notification.jsx` |
 | 5. Remove student + localStorage | `removeStudent()` and the two persistence `useEffect`s in `StudentContext.jsx`; the Remove button is in `StudentCard.jsx` |
 
-private window.
